@@ -104,7 +104,7 @@ public class UserTest {
 	@Test(priority = 4)
 	public void testdeleteUser() {
 		
-		Logger.info("******Deleting  User********"); 
+		Logger.info("******Deleting User********"); 
 		
 		Response res = UserEndpoints.DeleteUser(this.userPayload.getUsername());
 		
